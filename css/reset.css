@@ -1,0 +1,17 @@
+/*重置*/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+table ,tr,th, td /* table elements 表格元素 */{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+table tr,table td{ border-spacing: 0;}
+
+ul{list-style: none;}
+a{text-decoration: none;}
+header,nav,section,article,h3,img{margin:0;padding:0;display:block;}
+.clearfix:after{content:"/200B";display: block;height:0;clear:both;overflow: hidden;}
+.clearfix{*zoom:1;}
